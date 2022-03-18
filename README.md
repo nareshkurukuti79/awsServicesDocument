@@ -19,7 +19,6 @@ Amazon EC2 offers the broadest and deepest compute platform with a choice of pro
 
 Note: [Clik here for indepth of instance type](https://aws.amazon.com/ec2/instance-types/)
 
-
 ##### What determines the EC2 price?
 - Clock Hours of Server Time.
 - Instance Type.
@@ -32,7 +31,7 @@ Note: [Clik here for indepth of instance type](https://aws.amazon.com/ec2/instan
 1. [Steps to Launch an Amazon EC2](https://aws.amazon.com/premiumsupport/knowledge-center/free-tier-windows-instance/)
 2. [Demo video for Launch an Amazon EC2](https://www.youtube.com/watch?v=wcy0ktHDnT4)
 
-##### Reference Link for EC2:
+##### Reference Link for more info:
 [Official Document Link for EC2](https://docs.aws.amazon.com/ec2/index.html)
 
 ## 2. Amazon s3
@@ -56,7 +55,6 @@ S3 is an object storage built to store and retrieve any amount of data from anyw
 6. S3 Glacier Deep Archive (for long term archive and digital preservation)
 ![image](https://user-images.githubusercontent.com/101859396/158961657-6d33c286-f02e-430c-a922-c9249e7c0f1a.png)
 
-
 ##### Charged for the S3 in the following ways:
 1. Storage Class.
 2. No.of Requests.
@@ -65,16 +63,12 @@ S3 is an object storage built to store and retrieve any amount of data from anyw
 5. Transfer Acceleration.
 6. Cross-Region Replication Pricing.
 
-
 ##### How to launch an Amazon S3:
 1. [Steps to Create a Amazon S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
 2. [Demo video for create a Amazon S3 bucket](https://www.youtube.com/watch?v=e6w9LwZJFIA)
 
-
-##### Reference Link for Amazon S3:
+##### Reference Link for more info:
 [Official Document Link for Amazon S3](https://aws.amazon.com/s3/?did=ft_card&trk=ft_card)
-
-
 
 
 ## 3. Amazon RDS
@@ -102,11 +96,26 @@ Amazon RDS makes it easy to set up, operate, and scale a relational database in 
 - I/O requests per month.
 - Backup storage.
 - Data Transfer.
-
+- 
 ##### How to Create a Amazon RDS:
 1. [Steps to Create a Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html)
 2. [Demo video for create a Amazon RDS](https://www.youtube.com/watch?v=knrNBkr5iTM)
 
-
-##### Reference Link for Amazon RDS:
+##### Reference Link for more info:
 [Official Document Link for Amazon RDS](https://docs.aws.amazon.com/rds/index.html)
+
+
+## 4. Amazon EC2 Auto Scaling
+Amazon EC2 Auto Scaling helps increase or decrease the EC2 instance to handle the load for your application.
+
+- In Auto Scaling group you can specify the minimum no.of instances and maximum no.of instances in each Auto Scaling group. Then Amazon EC2 autoscaling never cross those limits of instances.
+- Amazon EC2 Auto Scaling manages the launch and termination of these EC2 instances on your behalf by define a set of criteria.
+- Adding Auto Scaling groups to your network architecture helps make your application more highly available and fault tolerant.
+- An Auto Scaling group can contain EC2 instances in one or more Availability Zones within the same Region. However, Auto Scaling groups cannot span multiple Regions.
+
+##### How to Create a Amazon EC2 Auto Scaling:
+1. [Steps to Create a Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/GettingStartedTutorial.html#gs-create-lt)
+2. [Demo video for create a Amazon EC2 Auto Scaling](https://www.youtube.com/watch?v=KNzxuANCtdY)
+
+##### Reference Link for more info:
+[Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/#amazon-ec2-auto-scaling)
