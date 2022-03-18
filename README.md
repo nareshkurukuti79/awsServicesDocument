@@ -29,7 +29,7 @@ Note: [Clik here for indepth of instance type](https://aws.amazon.com/ec2/instan
 
 
 ##### How to launch an Amazon EC2:
-1. [Steps for Launch an Amazon EC2](https://aws.amazon.com/premiumsupport/knowledge-center/free-tier-windows-instance/)
+1. [Steps to Launch an Amazon EC2](https://aws.amazon.com/premiumsupport/knowledge-center/free-tier-windows-instance/)
 2. [Demo video for Launch an Amazon EC2](https://www.youtube.com/watch?v=wcy0ktHDnT4)
 
 #### Reference Link for EC2:
@@ -68,7 +68,7 @@ S3 is an object storage built to store and retrieve any amount of data from anyw
 
 ##### How to launch an Amazon S3:
 1. [Steps to Create a Amazon S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
-2. [Demo video for create a Amazon S3 bucket]((https://www.youtube.com/watch?v=e6w9LwZJFIA))
+2. [Demo video for create a Amazon S3 bucket](https://www.youtube.com/watch?v=e6w9LwZJFIA)
 
 
 #### Reference Link for Amazon S3:
