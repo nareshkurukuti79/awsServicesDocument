@@ -32,7 +32,7 @@ Note: [Clik here for indepth of instance type](https://aws.amazon.com/ec2/instan
 1. [Steps to Launch an Amazon EC2](https://aws.amazon.com/premiumsupport/knowledge-center/free-tier-windows-instance/)
 2. [Demo video for Launch an Amazon EC2](https://www.youtube.com/watch?v=wcy0ktHDnT4)
 
-#### Reference Link for EC2:
+##### Reference Link for EC2:
 [Official Document Link for EC2](https://docs.aws.amazon.com/ec2/index.html)
 
 ## 2. Amazon s3
@@ -71,10 +71,42 @@ S3 is an object storage built to store and retrieve any amount of data from anyw
 2. [Demo video for create a Amazon S3 bucket](https://www.youtube.com/watch?v=e6w9LwZJFIA)
 
 
-#### Reference Link for Amazon S3:
+##### Reference Link for Amazon S3:
 [Official Document Link for Amazon S3](https://aws.amazon.com/s3/?did=ft_card&trk=ft_card)
 
 
 
 
+## 3. Amazon RDS
+Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you to focus on your applications and business.
 
+- Amazon RDS supports the following engines.
+	- MySQL
+	- MariaDB
+	- PostgresSQL
+	- Oracle
+	- Microsoft SQL Server
+- These DB engines enable you to create Read replicas in Amazon RDS.
+- Amazon RDS supports Multi-AZ deployment.
+
+##### Amazon RDS Instances Types:
+- Amazon RDS DB Instances can be provisioned with either 
+	- General Purpose (SSD)
+	- Provisioned IOPS (SSD)
+	- standard (magnetic) storage. 
+- Provisioned IOPS is a storage option designed to deliver fast, predictable, and consistent I/O performance, and is optimized for I/O-intensive, transactional (OLTP) database workloads.
+
+##### What determines the RDS price?
+- DB instances hour.
+- Storage (per GB per month).
+- I/O requests per month.
+- Backup storage.
+- Data Transfer.
+
+##### How to Create a Amazon RDS:
+1. [Steps to Create a Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html)
+2. [Demo video for create a Amazon RDS](https://www.youtube.com/watch?v=knrNBkr5iTM)
+
+
+##### Reference Link for Amazon RDS:
+[Official Document Link for Amazon RDS](https://docs.aws.amazon.com/rds/index.html)
